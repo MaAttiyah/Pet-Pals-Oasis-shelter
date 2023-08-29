@@ -1,0 +1,289 @@
+/* Import Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+/* Variables */
+
+:root {
+    /* Color Palette */
+    --Yankees-Blue: #252B48;
+    --Independence: #445069;
+    --Polished-Pine: #5B9A8B;
+    --Yellow-Crayola: #F7E987;
+    --Linen: #FAF0E6;
+}
+
+/* Default Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--Yankees-Blue);
+}
+
+/* 
+************************
+********************
+****************
+************
+********
+****
+*
+*/
+
+/* Header */
+
+.header__container {
+    width: 1400px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.header__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: var(--Linen);
+    font-size: 16px;
+}
+
+/* 
+************************
+********************
+****************
+************
+********
+****
+*
+*/
+
+/* Intro */
+
+.intro__container {
+    width: 1400px;
+    max-width: 100%;
+    margin: auto;
+    padding: 200px 0;
+}
+
+.intro__content {
+    text-align: center;
+}
+
+.intro__heading {
+    font-size: 70px;
+    margin-bottom: 30px;
+    color: var(--Linen);
+}
+
+.intro__paragraph {
+    max-width: 1075px;
+    margin: auto;
+    font-size: 26px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    color: var(--Linen);
+}
+
+.intro__btn {
+    margin-bottom: 100px;
+    width: 132px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 32px;
+    border: none;
+    background: var(--Yellow-Crayola);
+}
+
+.intro__image img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+/* 
+************************
+********************
+****************
+************
+********
+****
+*
+*/
+
+/* Reasons */
+
+.reasons__container {
+    width: 1400px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.reasons__heading {
+    font-size: 50px;
+    font-family: "Space Mono", monospace;
+    color: var(--Yellow-Crayola);
+}
+
+.reasons__paragraph {
+    font-size: 26px;
+    color: var(--Linen);
+}
+
+.reasons__paragraph--width {
+    max-width: 730px;
+    margin: 30px auto 120px;
+}
+
+.reasons--center {
+    text-align: center;
+}
+
+/* Reason */
+
+.reason {
+    background-color: var(--Independence);
+}
+
+.reason__flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reason__flex--reverse {
+    flex-direction: row-reverse;
+}
+
+.reason__image {
+    width: 600px;
+    max-width: 100%;
+    flex: 1 0 auto;
+}
+
+.reason__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.reason__desc {
+    padding: 40px;
+    width: 600px;
+    max-width: 100%;
+    flex: 1 0 auto;
+}
+
+.reason__number {
+    font-family: "Space Mono", monospace;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: var(--Yellow-Crayola);
+}
+
+.reason__heading {
+    font-size: 26px;
+    margin-bottom: 25px;
+    color: var(--Linen);
+}
+
+.reason__paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--Linen);
+}
+
+.reason--right {
+    text-align: right;
+}
+
+/* 
+************************
+********************
+****************
+************
+********
+****
+*
+*/
+
+/* visit */
+
+.visit {
+    margin: 140px 0;
+}
+
+.visit__heading {
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: var(--Linen);
+}
+
+.visit__paragraph {
+    font-size: 20px;
+    color: var(--Linen);
+    line-height: 1.4;
+}
+
+.visit__paragraph--width {
+    max-width: 881px;
+    margin: 0 auto 30px;
+}
+
+.visit button {
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 32px;
+    border: none;
+    background: var(--Yellow-Crayola);
+}
+
+.visit__btn--width {
+    width: 132px;
+    height: 50px;
+    display: block;
+    margin: 50px auto 0;
+}
+
+.visit--center {
+    text-align: center;
+}
+
+/* 
+************************
+********************
+****************
+************
+********
+****
+*
+*/
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--Polished-Pine);
+    color: var(--Linen);
+}
+
+.footer__txt--bold {
+    font-weight: 600;
+}
